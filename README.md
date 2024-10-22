@@ -1,1 +1,1 @@
-# typemaster-landing-page
+# README до першого проекта який я запушив через git
