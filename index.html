@@ -6,13 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Typemaster pre-launch landing page</title>
 </head>
 
 <body>
-  <header> Pre-order now</header>
+  <header class="container"><img src="./assets/shared/logo.svg" alt=""> <a href="#">Pre-order now</a></header>
   <main>
 
     <section>
@@ -36,11 +40,11 @@
         of switches and keycaps, along with reliable wireless connectivity.
       </p>
     </section>
-    <section>
+    <section class="container features">
 
       <article>
-        <img src="./assets/shared/icon-compatible.svg" alt="">
-        <h3>Highly compatible</h3>
+        <div class="img"><img src="./assets/shared/icon-compatible.svg" alt=""></div>
+        <h3>Highly <br>compatible</h3> 
         <p>
           Easy to use and works well with all major computer brands, gaming consoles and mobile devices.
           Plug & play, no installation or driver needed.
@@ -48,16 +52,16 @@
       </article>
 
       <article>
-        <img src="./assets/shared/icon-bluetooth.svg" alt="">
+        <div class="img"><img src="./assets/shared/icon-bluetooth.svg" alt=""></div>
         <h3>Wireless with bluetooth</h3>
         <p>
           Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft away.
-          Simply plug the unifying receiver into your computer.
+          Simply plug the unifying receiver into&nbsp;your computer.
         </p>
       </article>
 
       <article>
-        <img src="./assets/shared/icon-battery.svg" alt="">
+        <div class="img"><img src="./assets/shared/icon-battery.svg" alt=""></div>
         <h3>High capacity battery</h3>
         <p>
           Equipped with a long-lasting built-in battery, you’ll never have to spend a dime on replaceable ones. 
@@ -66,18 +70,18 @@
       </article>
 
       <article>
-        <img src="./assets/shared/icon-light.svg" alt="">
+        <div class="img"><img src="./assets/shared/icon-light.svg" alt=""></div>
         <h3>RGB backlit modes</h3>
         <p>
           Choose from 4 backlight brightness levels and adjustable breathing speed. Each key glows intensely in the dark
           and helps
-          you type in low light conditions.
+          you type in low light&nbsp;conditions.
         </p>
       </article>
     </section>
   </main>
 
-  Typemaster 2021 | All Rights Reserved
+  <footer><span>Typemaster 2021 </span>| All Rights Reserved</footer>
 </body>
 
 </html>
