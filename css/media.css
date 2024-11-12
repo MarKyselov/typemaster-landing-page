@@ -1,0 +1,183 @@
+@media(max-width:1140px) {
+    .container {
+        max-width: 700px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .hero {
+        position: relative;
+        column-gap: 0;
+        align-items: center;
+    }
+
+    .hero article {
+        max-width: 339px;
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 34px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 339px;
+    }
+
+    .hero::after,
+    .keyboard::before {
+        display: none;
+    }
+
+    .hero-bg {
+        height: 425px;
+        width: 478px;
+        left: 0;
+        background-repeat: no-repeat;
+        position: relative;
+        left: 12%;
+        background-size: cover;
+    }
+
+    .button {
+        column-gap: 35px;
+    }
+
+    .img-wrapper {
+        width: 100%;
+    }
+
+    .wireless div {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        column-gap: 36px;
+    }
+
+    .features {
+        column-gap: 70px;
+        row-gap: 72px;
+        flex-wrap: wrap;
+    }
+
+    .features article {
+        width: 281px;
+        height: 289px;
+    }
+}
+
+@media(max-width:736px) {
+    .container {
+        max-width: 337px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    header {
+        padding-top: 23px;
+        padding-bottom: 64px;
+    }
+
+    header a {
+        width: 151px;
+        height: 48px;
+    }
+
+    .hero {
+        flex-direction: column;
+        row-gap: 64px;
+        min-height: 681px;
+    }
+
+    .hero article p {
+        margin-bottom: 32px;
+    }
+
+    button {
+        width: 150px;
+    }
+
+    .hero-bg {
+        width: 372px;
+        height: 331px;
+        background-image: url(../assets/mobile/image-keyboard.jpg);
+        left: 0;
+        bottom: 0;
+        position: absolute;
+    }
+
+    .img-wrapper {
+        column-gap: 24px;
+    }
+
+    .keyboard {
+        margin-bottom: 111px;
+    }
+
+    .keyboard-bg1,
+    .keyboard-bg2 {
+        height: 193px;
+    }
+
+    .keyboard-bg1 {
+        background-image: url(../assets/mobile/image-keyboard-and-phone-orange.png);
+
+
+    }
+
+    .keyboard-bg2 {
+        background-image: url(../assets/mobile/image-glass-and-keyboard.jpg);
+        max-width: 220px;
+        margin-left: auto;
+    }
+
+    .wireless div {
+        flex-direction: column;
+        row-gap: 24px;
+        text-align: center;
+    }
+
+    .wireless h2 {
+        width: 255px;
+        align-self: center;
+    }
+    .features{
+        margin-bottom: 96px;
+    }
+    .features,.features h3{
+        text-align: center;
+        justify-content: center;
+        row-gap: 64px;
+    }
+    .features article{
+        width: 327px;
+    }
+    .img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media(max-width:375px) {
+    main {
+        position: relative;
+    }
+
+    .keyboard {
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .keyboard-bg1 {
+        left: 0;
+        width: 129px;
+        position: absolute
+    }
+}

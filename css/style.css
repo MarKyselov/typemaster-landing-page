@@ -6,6 +6,15 @@
     margin-left: auto;
 }
 
+body {
+    font-family: 'Barlow';
+    font-style: normal;
+}
+
+main {
+    overflow: hidden;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -37,6 +46,156 @@ header a:hover {
     color: #fff;
 }
 
+.hero {
+    position: relative;
+    /* background-color: #F16718; */
+    min-height: 480px;
+    display: flex;
+    column-gap: 125px;
+    margin-bottom: 30px;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    width: 255px;
+    height: 240px;
+    border-radius: 20px;
+    background-color: #E8EFF2;
+    right: 0;
+    top: 0;
+    transform: translateX(calc(100% + 30px));
+}
+
+.hero article {
+    max-width: 445px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #162542;
+    margin-bottom: 24px;
+}
+
+.hero article p {
+    margin-bottom: 40px;
+}
+
+.hero p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+button {
+    width: 175px;
+    height: 48px;
+    background-color: #F16718;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+button:hover{
+    background-color: #FF9B62;
+}
+.button span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #7B8BAD;
+}
+
+.hero-bg {
+    background-image: url(../assets/desktop/image-keyboard.jpg);
+    background-size: contain;
+    max-width: 540px;
+    width: 100%;
+    height: 480px;
+    border-radius: 20px;
+}
+
+.keyboard {
+    position: relative;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 168px;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 72px;
+}
+.keyboard::before {
+    content: "";
+    position: absolute;
+    width: 255px;
+    height: 240px;
+    border-radius: 20px;
+    background-color: #E8EFF2;
+    bottom: 0;
+    left: 0;
+    transform: translateX(calc(-100% - 30px));
+}
+
+
+.wireless {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.wireless div{
+    width: 255px;
+}
+.wireless h2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #162542;
+    margin-bottom: auto;
+}
+
+.wireless p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+.img-wrapper{
+    display: flex;
+    column-gap: 30px;
+}
+.keyboard-bg1 {
+    width: 255px;
+    height: 480px;
+    background-image: url(../assets/desktop/image-phone-orange.png);
+    background-repeat: no-repeat;
+}
+
+.keyboard-bg2 {
+    width: 445px;
+    height: 480px;
+    background-image: url(../assets/desktop/image-glass-and-keyboard.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
 .features {
     display: flex;
     gap: 30px;
@@ -86,8 +245,9 @@ footer {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    color: #7B8BAD; 
+    color: #7B8BAD;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 footer span {
