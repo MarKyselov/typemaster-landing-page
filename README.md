@@ -3,15 +3,18 @@
 ## Структура проекту
 
 Проект складається з наступних файлів та директорій:
+  
   desktop/
   - image-glass-and-keyboard.jpg
   - image-keyboard.jpg
   - image-phone-orange.png
+  
   mobile/
   - image-glass-and-keyboard.jpg
   - image-keyboard-and-phone-orange.png
   - image-keyboard.jpg
   - image-phone-and-keyboard.jpg
+  
   shared/
   - icon-battery.svg
   - icon-bluetooth.svg
@@ -19,16 +22,20 @@
   - icon-light.svg
   - logo.svg
   - pattern-square.svg
+  - 
   tablet/
   - image-glass-and-keyboard.jpg
   - image-keyboard.jpg
   - image-phone-and-keyboard.jpg
+
   favicon-32x32.png
+
 css/
-  reset.css
-  styles.css
-index.html
-README.md
+
+- reset.css
+- styles.css
+- index.html
+- README.md
 ```
 
 ### Опис файлів
